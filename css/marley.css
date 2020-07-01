@@ -1,0 +1,168 @@
+html,body{
+    overflow-x: hidden;
+  }
+    #hero{
+        position: relative;
+        background-image: url('../img/hero.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 30rem;
+    }
+    #heroInner{
+      position: absolute;
+      left: 25%;
+      top: 10rem;
+      z-index: 10;
+      color: white;
+    }
+    .slogan-container{
+      position: relative;
+      background-color: black;
+      opacity: 0.4;
+    }
+
+    #carousel{
+        position: relative;
+        background-image: url('../img/recent/background.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #innerCarousel{
+      position: absolute;
+      background-color: black;
+      opacity: 0.7;
+      left: 0;
+      bottom: 0;
+    }
+    #innerCarousel h2{
+      opacity: 1 !important;
+    }
+    .testimonial{
+      position: relative;
+      background-image: url('../img/recent/3.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .testTxt p{
+      border: 1px solid gold;
+      padding: 2%;
+    }
+    .testTxt img{margin-right: 2%;}
+    .footer{
+      color: rgb(231, 222, 222);
+    }
+    .footer h6,.copyright{
+      color:gold;
+    }
+    #heroInner a{
+      border: 2px solid white;
+      color: white;
+    border-radius: 0.1rem;
+    }
+    #heroInner span{
+      border-bottom: 5px solid yellow;
+    }
+    .slogan1{
+      background-color:rgba(212, 154, 36, 0.897);
+    }
+    .recentPrj,.testTxt{
+      color: white;
+      z-index: 10;
+    }
+    .construction{
+      background-color: white;
+      line-height: 160%;
+    }
+    .blogpost img{
+      max-width: 100%;
+    }
+    #collapsibleNavbar ul li a{
+    font-size: 1.3rem;
+    color: black;
+    }
+    .footer form button{
+      float: left;
+    }  
+    .aboutUs, .recentPrj, .partners,.ourServices,.blogPost,.recentNews,.weAre{
+      display: inline-block;
+      position: relative;
+      padding-bottom: 0.4%;
+    }
+    .weAre::after,.aboutUs::after,.recentPrj::after,.partners::after,.ourServices::after,.blogPost::after,.recentNews::after{
+      content: '';
+      height: 4px;
+      width: 90%;
+      background: rgba(245, 187, 71, 0.897);
+      position: absolute;
+      left: 0;
+      bottom:0;
+    }
+    .weAre::after,.recentPrj::after,.partners::after,.ourServices::after,.blogPost::after,.recentNews::after{
+      width: 60%;
+      left: 10;
+      bottom:0;
+    }
+    .navbar-expand-md{
+      padding: 0 11% 2% !important;
+    }
+    .home a, .readMore,.card-body h6 a {
+      color: rgba(245, 187, 71, 0.897) !important;
+    }
+
+    .service{
+      border: 1px solid black;
+    }
+    .service img{
+      width: 40%;
+    }
+    .service h6{
+      margin-left: 50%;
+    }
+    @media screen and (max-width:768px) {
+      body,.nav-item a{
+        font-size: 90% !important;
+      }
+      h1,h2,h3,h4,h5,h6{
+        font-size:93%
+      }
+      .weAre{
+        font-size: 150%;
+      }
+      #heroInner{
+      left: 0;
+      text-align: center;
+    }
+    .navbar-brand img{
+      width: 8.4rem;
+    }
+    .navbar-expand-md{
+      padding: 0 0 2% !important;
+    }
+    .navbar-toggler-icon{
+      font-size: 1rem;
+      width: 1.2rem;
+    }
+    .recentPrj::after,.partners::after,.ourServices::after,.blogPost::after,.recentNews::after{
+      height: 4px;
+      margin-bottom: -0.3rem;
+    }
+}
+    .owl-prev{left: 0;}
+    .owl-next{right: 0;}
+    .owl-prev,.owl-next{
+      position:absolute;
+      top: 0;
+      bottom: 0;
+    }
+    .owl-next:hover, .owl-next:active,.owl-next:focus,.owl-prev:hover, .owl-prev:active,.owl-prev:focus{
+      outline: 0;
+    }
+    .owl-prev i, .owl-next i {
+      font-size: 20px;
+      color: aliceblue;
+      text-shadow: 1px 1px 5px black;
+ 
+    }
+    
+    .owl-theme, .owl-nav[class*="owl-"]:hover{background-color: transparent;}
+    .item {border: 1px solid #ddd}
